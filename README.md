@@ -11,7 +11,20 @@ How to install:
 -----------------
 
 1 - Download all files and copy them to your web server or local server.
+
 2 - open functions.php in notepad or text editor and add your database connection data (host ($host), username($un), password($pw) and database name($db)). 
+
 3 - open install.php in your browser. It will automatically connect to the database using the information you added in the functions.php file and then it will create the table "accounts" in your database. 
+
 4 - After the table is created, you can close, and even delete install.php, and open the index.php file using your web browser and it will display the login page where you can enter your username and password to login or click on a link to go to the resgister.php page to register a new account.
+
+----------------------------
+Live demo:
+----------------------------
+
+You can see and examine a live working demo version of this project here:
+
+http://abdalla-wd.com/projects/sls-v1.0/
+
+
 
